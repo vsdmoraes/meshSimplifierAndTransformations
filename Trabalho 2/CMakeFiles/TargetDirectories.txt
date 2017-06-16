@@ -1,6 +1,0 @@
-/home/viniciusmoraes/Computacao Grafica/cg_ufpel/Trabalho 2/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir
-/home/viniciusmoraes/Computacao Grafica/cg_ufpel/Trabalho 2/CMakeFiles/CG_UFPel.dir
-/home/viniciusmoraes/Computacao Grafica/cg_ufpel/Trabalho 2/external/CMakeFiles/GLEW_190.dir
-/home/viniciusmoraes/Computacao Grafica/cg_ufpel/Trabalho 2/external/glfw-3.0.3/src/CMakeFiles/GLFW_303.dir
-/home/viniciusmoraes/Computacao Grafica/cg_ufpel/Trabalho 2/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir
-/home/viniciusmoraes/Computacao Grafica/cg_ufpel/Trabalho 2/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir
