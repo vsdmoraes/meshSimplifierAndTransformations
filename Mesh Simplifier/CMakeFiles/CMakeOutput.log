@@ -1,0 +1,1181 @@
+The system is: Linux - 3.19.0-26-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/3.0.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2665598149/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2665598149.dir/build.make CMakeFiles/cmTryCompileExec2665598149.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2665598149.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2665598149.dir/testCCompiler.c.o   -c "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTryCompileExec2665598149
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2665598149.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2665598149.dir/testCCompiler.c.o  -o cmTryCompileExec2665598149 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4103477771/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4103477771.dir/build.make CMakeFiles/cmTryCompileExec4103477771.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4103477771.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4103477771.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec4103477771
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4103477771.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec4103477771.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4103477771 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4103477771' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0YfGyi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4103477771 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec4103477771.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec4103477771/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4103477771.dir/build.make CMakeFiles/cmTryCompileExec4103477771.dir/build]
+  ignore line: [make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec4103477771.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4103477771.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec4103477771]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4103477771.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec4103477771.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4103477771 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4103477771' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0YfGyi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec4103477771 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec4103477771.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc0YfGyi.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4103477771] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTryCompileExec4103477771.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4104865992/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4104865992.dir/build.make CMakeFiles/cmTryCompileExec4104865992.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec4104865992.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec4104865992.dir/testCXXCompiler.cxx.o -c "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTryCompileExec4104865992
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4104865992.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec4104865992.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4104865992 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3554213709/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3554213709.dir/build.make CMakeFiles/cmTryCompileExec3554213709.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec3554213709.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3554213709.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3554213709
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3554213709.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3554213709.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3554213709 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3554213709' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNL1f7t.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3554213709 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec3554213709.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3554213709/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3554213709.dir/build.make CMakeFiles/cmTryCompileExec3554213709.dir/build]
+  ignore line: [make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3554213709.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3554213709.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3554213709]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3554213709.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3554213709.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3554213709 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.9.2-10ubuntu13' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Ubuntu 4.9.2-10ubuntu13) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3554213709' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNL1f7t.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3554213709 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec3554213709.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccNL1f7t.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3554213709] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTryCompileExec3554213709.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2242961770/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2242961770.dir/build.make CMakeFiles/cmTryCompileExec2242961770.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2242961770.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec2242961770.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2242961770
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2242961770.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec2242961770.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2242961770 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4150202295/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4150202295.dir/build.make CMakeFiles/cmTryCompileExec4150202295.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4150202295.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec4150202295.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4150202295
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4150202295.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec4150202295.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4150202295 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2945061961/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2945061961.dir/build.make CMakeFiles/cmTryCompileExec2945061961.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2945061961.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec2945061961.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2945061961
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2945061961.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec2945061961.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2945061961 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1808266104/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1808266104.dir/build.make CMakeFiles/cmTryCompileExec1808266104.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1808266104.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec1808266104.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1808266104
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1808266104.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec1808266104.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1808266104 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1420413157/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1420413157.dir/build.make CMakeFiles/cmTryCompileExec1420413157.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1420413157.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec1420413157.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1420413157
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1420413157.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec1420413157.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1420413157 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec371829441/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec371829441.dir/build.make CMakeFiles/cmTryCompileExec371829441.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec371829441.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec371829441.dir/CheckIncludeFiles.c.o   -c "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec371829441
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec371829441.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec371829441.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec371829441 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1713339340/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1713339340.dir/build.make CMakeFiles/cmTryCompileExec1713339340.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1713339340.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1713339340.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1713339340
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1713339340.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1713339340.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1713339340 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function glXGetProcAddress exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1421644126/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1421644126.dir/build.make CMakeFiles/cmTryCompileExec1421644126.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1421644126.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress   -o CMakeFiles/cmTryCompileExec1421644126.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1421644126
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1421644126.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress    CMakeFiles/cmTryCompileExec1421644126.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1421644126 -rdynamic -lGL 
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function glXGetProcAddressARB exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1357998874/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1357998874.dir/build.make CMakeFiles/cmTryCompileExec1357998874.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1357998874.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB   -o CMakeFiles/cmTryCompileExec1357998874.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1357998874
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1357998874.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB    CMakeFiles/cmTryCompileExec1357998874.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1357998874 -rdynamic -lGL 
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3827896583/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3827896583.dir/build.make CMakeFiles/cmTryCompileExec3827896583.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3827896583.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3827896583.dir/CheckIncludeFile.c.o   -c "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTryCompileExec3827896583
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3827896583.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3827896583.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3827896583 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec367760733/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec367760733.dir/build.make CMakeFiles/cmTryCompileExec367760733.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec367760733.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec367760733.dir/CheckIncludeFile.c.o   -c "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTryCompileExec367760733
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec367760733.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec367760733.dir/CheckIncludeFile.c.o  -o cmTryCompileExec367760733 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec487534659/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec487534659.dir/build.make CMakeFiles/cmTryCompileExec487534659.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec487534659.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec487534659.dir/CheckIncludeFile.c.o   -c "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTryCompileExec487534659
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec487534659.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec487534659.dir/CheckIncludeFile.c.o  -o cmTryCompileExec487534659 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4040990444/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4040990444.dir/build.make CMakeFiles/cmTryCompileExec4040990444.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4040990444.dir/OFF64_T.c.o
+/usr/bin/cc  -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -o CMakeFiles/cmTryCompileExec4040990444.dir/OFF64_T.c.o   -c "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CheckTypeSize/OFF64_T.c"
+Linking C executable cmTryCompileExec4040990444
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4040990444.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4040990444.dir/OFF64_T.c.o  -o cmTryCompileExec4040990444 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec470639494/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec470639494.dir/build.make CMakeFiles/cmTryCompileExec470639494.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec470639494.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTryCompileExec470639494.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec470639494
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec470639494.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko    CMakeFiles/cmTryCompileExec470639494.dir/CheckFunctionExists.c.o  -o cmTryCompileExec470639494 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1083438285/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1083438285.dir/build.make CMakeFiles/cmTryCompileExec1083438285.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1083438285.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1083438285.dir/CheckIncludeFile.c.o   -c "/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTryCompileExec1083438285
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1083438285.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1083438285.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1083438285 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Documentos/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1097911541/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1097911541.dir/build.make CMakeFiles/cmTryCompileExec1097911541.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1097911541.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec1097911541.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1097911541
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1097911541.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec1097911541.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1097911541 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec328160439/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec328160439.dir/build.make CMakeFiles/cmTryCompileExec328160439.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec328160439.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec328160439.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec328160439
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec328160439.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec328160439.dir/CheckFunctionExists.c.o  -o cmTryCompileExec328160439 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3121101992/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3121101992.dir/build.make CMakeFiles/cmTryCompileExec3121101992.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3121101992.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec3121101992.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3121101992
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3121101992.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec3121101992.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3121101992 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3185972701/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3185972701.dir/build.make CMakeFiles/cmTryCompileExec3185972701.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3185972701.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec3185972701.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3185972701
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3185972701.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec3185972701.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3185972701 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1359966871/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1359966871.dir/build.make CMakeFiles/cmTryCompileExec1359966871.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1359966871.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec1359966871.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1359966871
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1359966871.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec1359966871.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1359966871 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3850235833/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3850235833.dir/build.make CMakeFiles/cmTryCompileExec3850235833.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3850235833.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3850235833.dir/CheckIncludeFiles.c.o   -c "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec3850235833
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3850235833.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3850235833.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3850235833 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2191544620/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2191544620.dir/build.make CMakeFiles/cmTryCompileExec2191544620.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2191544620.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2191544620.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2191544620
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2191544620.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2191544620.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2191544620 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function glXGetProcAddress exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1203072486/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1203072486.dir/build.make CMakeFiles/cmTryCompileExec1203072486.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1203072486.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress   -o CMakeFiles/cmTryCompileExec1203072486.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1203072486
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1203072486.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress    CMakeFiles/cmTryCompileExec1203072486.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1203072486 -rdynamic -lGL 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function glXGetProcAddressARB exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2755991166/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2755991166.dir/build.make CMakeFiles/cmTryCompileExec2755991166.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2755991166.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB   -o CMakeFiles/cmTryCompileExec2755991166.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2755991166
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2755991166.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB    CMakeFiles/cmTryCompileExec2755991166.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2755991166 -rdynamic -lGL 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2169586321/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2169586321.dir/build.make CMakeFiles/cmTryCompileExec2169586321.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2169586321.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2169586321.dir/CheckIncludeFile.c.o   -c "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTryCompileExec2169586321
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2169586321.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2169586321.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2169586321 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2883995353/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2883995353.dir/build.make CMakeFiles/cmTryCompileExec2883995353.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2883995353.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2883995353.dir/CheckIncludeFile.c.o   -c "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTryCompileExec2883995353
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2883995353.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2883995353.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2883995353 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec640408935/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec640408935.dir/build.make CMakeFiles/cmTryCompileExec640408935.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec640408935.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec640408935.dir/CheckIncludeFile.c.o   -c "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTryCompileExec640408935
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec640408935.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec640408935.dir/CheckIncludeFile.c.o  -o cmTryCompileExec640408935 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec443440737/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec443440737.dir/build.make CMakeFiles/cmTryCompileExec443440737.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec443440737.dir/OFF64_T.c.o
+/usr/bin/cc  -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -o CMakeFiles/cmTryCompileExec443440737.dir/OFF64_T.c.o   -c "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CheckTypeSize/OFF64_T.c"
+Linking C executable cmTryCompileExec443440737
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec443440737.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec443440737.dir/OFF64_T.c.o  -o cmTryCompileExec443440737 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1312996544/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1312996544.dir/build.make CMakeFiles/cmTryCompileExec1312996544.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1312996544.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTryCompileExec1312996544.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1312996544
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1312996544.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko    CMakeFiles/cmTryCompileExec1312996544.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1312996544 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2297304633/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2297304633.dir/build.make CMakeFiles/cmTryCompileExec2297304633.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2297304633.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2297304633.dir/CheckIncludeFile.c.o   -c "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTryCompileExec2297304633
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2297304633.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2297304633.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2297304633 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3843442648/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3843442648.dir/build.make CMakeFiles/cmTryCompileExec3843442648.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3843442648.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec3843442648.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3843442648
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3843442648.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec3843442648.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3843442648 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3678680523/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3678680523.dir/build.make CMakeFiles/cmTryCompileExec3678680523.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3678680523.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec3678680523.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3678680523
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3678680523.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec3678680523.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3678680523 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3945184272/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3945184272.dir/build.make CMakeFiles/cmTryCompileExec3945184272.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3945184272.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec3945184272.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3945184272
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3945184272.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec3945184272.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3945184272 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3240451640/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3240451640.dir/build.make CMakeFiles/cmTryCompileExec3240451640.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3240451640.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec3240451640.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3240451640
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3240451640.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec3240451640.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3240451640 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3063707838/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3063707838.dir/build.make CMakeFiles/cmTryCompileExec3063707838.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3063707838.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec3063707838.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3063707838
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3063707838.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec3063707838.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3063707838 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3318869669/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3318869669.dir/build.make CMakeFiles/cmTryCompileExec3318869669.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3318869669.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3318869669.dir/CheckIncludeFiles.c.o   -c "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec3318869669
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3318869669.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3318869669.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3318869669 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec592774355/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec592774355.dir/build.make CMakeFiles/cmTryCompileExec592774355.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec592774355.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec592774355.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec592774355
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec592774355.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec592774355.dir/CheckFunctionExists.c.o  -o cmTryCompileExec592774355 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function glXGetProcAddress exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2487540924/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2487540924.dir/build.make CMakeFiles/cmTryCompileExec2487540924.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2487540924.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress   -o CMakeFiles/cmTryCompileExec2487540924.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2487540924
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2487540924.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress    CMakeFiles/cmTryCompileExec2487540924.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2487540924 -rdynamic -lGL 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function glXGetProcAddressARB exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec310535224/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec310535224.dir/build.make CMakeFiles/cmTryCompileExec310535224.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec310535224.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB   -o CMakeFiles/cmTryCompileExec310535224.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec310535224
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec310535224.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB    CMakeFiles/cmTryCompileExec310535224.dir/CheckFunctionExists.c.o  -o cmTryCompileExec310535224 -rdynamic -lGL 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4150555656/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4150555656.dir/build.make CMakeFiles/cmTryCompileExec4150555656.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4150555656.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4150555656.dir/CheckIncludeFile.c.o   -c "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTryCompileExec4150555656
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4150555656.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4150555656.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4150555656 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2808578835/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2808578835.dir/build.make CMakeFiles/cmTryCompileExec2808578835.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2808578835.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2808578835.dir/CheckIncludeFile.c.o   -c "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTryCompileExec2808578835
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2808578835.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2808578835.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2808578835 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1759207925/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1759207925.dir/build.make CMakeFiles/cmTryCompileExec1759207925.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1759207925.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1759207925.dir/CheckIncludeFile.c.o   -c "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTryCompileExec1759207925
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1759207925.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1759207925.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1759207925 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1537494573/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1537494573.dir/build.make CMakeFiles/cmTryCompileExec1537494573.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1537494573.dir/OFF64_T.c.o
+/usr/bin/cc  -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -o CMakeFiles/cmTryCompileExec1537494573.dir/OFF64_T.c.o   -c "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CheckTypeSize/OFF64_T.c"
+Linking C executable cmTryCompileExec1537494573
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1537494573.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1537494573.dir/OFF64_T.c.o  -o cmTryCompileExec1537494573 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec867154196/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec867154196.dir/build.make CMakeFiles/cmTryCompileExec867154196.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec867154196.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTryCompileExec867154196.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec867154196
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec867154196.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko    CMakeFiles/cmTryCompileExec867154196.dir/CheckFunctionExists.c.o  -o cmTryCompileExec867154196 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3676765188/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3676765188.dir/build.make CMakeFiles/cmTryCompileExec3676765188.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3676765188.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3676765188.dir/CheckIncludeFile.c.o   -c "/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTryCompileExec3676765188
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3676765188.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3676765188.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3676765188 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computação Gráfica/CG_UFPel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec690193046/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec690193046.dir/build.make CMakeFiles/cmTryCompileExec690193046.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec690193046.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec690193046.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec690193046
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec690193046.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec690193046.dir/CheckFunctionExists.c.o  -o cmTryCompileExec690193046 -rdynamic -lX11 -lXext 
+make[1]: Leaving directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec947340206/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec947340206.dir/build.make CMakeFiles/cmTryCompileExec947340206.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec947340206.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec947340206.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec947340206
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec947340206.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec947340206.dir/CheckFunctionExists.c.o  -o cmTryCompileExec947340206 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2946696708/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2946696708.dir/build.make CMakeFiles/cmTryCompileExec2946696708.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2946696708.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec2946696708.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2946696708
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2946696708.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec2946696708.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2946696708 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1342748875/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1342748875.dir/build.make CMakeFiles/cmTryCompileExec1342748875.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1342748875.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec1342748875.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1342748875
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1342748875.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec1342748875.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1342748875 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3959500745/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3959500745.dir/build.make CMakeFiles/cmTryCompileExec3959500745.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3959500745.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec3959500745.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3959500745
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3959500745.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec3959500745.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3959500745 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4080087247/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4080087247.dir/build.make CMakeFiles/cmTryCompileExec4080087247.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4080087247.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4080087247.dir/CheckIncludeFiles.c.o   -c "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CheckIncludeFiles.c"
+Linking C executable cmTryCompileExec4080087247
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4080087247.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4080087247.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4080087247 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec414098507/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec414098507.dir/build.make CMakeFiles/cmTryCompileExec414098507.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec414098507.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec414098507.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec414098507
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec414098507.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec414098507.dir/CheckFunctionExists.c.o  -o cmTryCompileExec414098507 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function glXGetProcAddress exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4136981165/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4136981165.dir/build.make CMakeFiles/cmTryCompileExec4136981165.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec4136981165.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress   -o CMakeFiles/cmTryCompileExec4136981165.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4136981165
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4136981165.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddress    CMakeFiles/cmTryCompileExec4136981165.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4136981165 -rdynamic -lGL 
+make[1]: Leaving directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function glXGetProcAddressARB exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1990639727/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1990639727.dir/build.make CMakeFiles/cmTryCompileExec1990639727.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec1990639727.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB   -o CMakeFiles/cmTryCompileExec1990639727.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1990639727
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1990639727.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB    CMakeFiles/cmTryCompileExec1990639727.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1990639727 -rdynamic -lGL 
+make[1]: Leaving directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2295415054/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2295415054.dir/build.make CMakeFiles/cmTryCompileExec2295415054.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2295415054.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2295415054.dir/CheckIncludeFile.c.o   -c "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTryCompileExec2295415054
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2295415054.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2295415054.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2295415054 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec358138012/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec358138012.dir/build.make CMakeFiles/cmTryCompileExec358138012.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec358138012.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec358138012.dir/CheckIncludeFile.c.o   -c "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTryCompileExec358138012
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec358138012.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec358138012.dir/CheckIncludeFile.c.o  -o cmTryCompileExec358138012 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2843344056/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2843344056.dir/build.make CMakeFiles/cmTryCompileExec2843344056.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2843344056.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2843344056.dir/CheckIncludeFile.c.o   -c "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTryCompileExec2843344056
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2843344056.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2843344056.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2843344056 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3698769498/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3698769498.dir/build.make CMakeFiles/cmTryCompileExec3698769498.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3698769498.dir/OFF64_T.c.o
+/usr/bin/cc  -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -o CMakeFiles/cmTryCompileExec3698769498.dir/OFF64_T.c.o   -c "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CheckTypeSize/OFF64_T.c"
+Linking C executable cmTryCompileExec3698769498
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3698769498.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3698769498.dir/OFF64_T.c.o  -o cmTryCompileExec3698769498 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2465335026/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2465335026.dir/build.make CMakeFiles/cmTryCompileExec2465335026.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec2465335026.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTryCompileExec2465335026.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2465335026
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2465335026.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko    CMakeFiles/cmTryCompileExec2465335026.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2465335026 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3927774990/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3927774990.dir/build.make CMakeFiles/cmTryCompileExec3927774990.dir/build
+make[1]: Entering directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building C object CMakeFiles/cmTryCompileExec3927774990.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3927774990.dir/CheckIncludeFile.c.o   -c "/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTryCompileExec3927774990
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3927774990.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3927774990.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3927774990 -rdynamic 
+make[1]: Leaving directory '/home/viniciusmoraes/Computacao Grafica/cg_ufpel/CMakeFiles/CMakeTmp'
+
+
